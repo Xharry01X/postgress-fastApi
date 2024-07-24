@@ -40,3 +40,4 @@ async def create_questions(question: QuestionBase, db: db_dependency):
         db.add(db_choice)
         db.commit()
     return {"message": "Question and choices created successfully"}
+
